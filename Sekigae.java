@@ -75,6 +75,10 @@ public class Sekigae extends JFrame implements ActionListener{
 		JPanel p = new JPanel();
 		GridLayout layout = new GridLayout(10,1);
 		p.setLayout(layout);
+		for (int i = 0; i < 10; i++) {
+		    p.add(panel[i]);
+		}
+		/*
 		p.add(panel[0]);
 		p.add(panel[1]);
 		p.add(panel[2]);
@@ -85,7 +89,7 @@ public class Sekigae extends JFrame implements ActionListener{
 		p.add(panel[7]);
 		p.add(panel[8]);
 		p.add(panel[9]);
-		
+		*/
 		getContentPane().add(p, BorderLayout.CENTER);
 		
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
